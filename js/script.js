@@ -10,6 +10,7 @@ function init() {
     var phone = document.getElementById("phone_number").value;
     var email = document.getElementById("email").value;
     var bday = document.getElementById("bday").value;
+    //getting input from
     if (fname === "" || lname === "" || phone === "" || email === "" || bday === "") {
       alert("Please fill in the form");
       return false;
