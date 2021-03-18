@@ -1,3 +1,5 @@
+// form validation code
+
 function init() {
     var button = document.getElementById('submitButton');
 
