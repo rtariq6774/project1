@@ -1,0 +1,160 @@
+body{
+    background-image: url("../image/chicago.jpg")
+}
+
+#myForm{
+    border: 1px solid #444;
+    padding: 5px 20px;
+    margin: 2% 20% 0 20%;
+    min-width: max-content;
+    background-color: #E4E4D9;
+    background-image: linear-gradient(175deg, rgba(0,0,0,0) 95%, #8da389 95%),
+    linear-gradient( 85deg, rgba(0,0,0,0) 95%, #8da389 95%),
+    linear-gradient(175deg, rgba(0,0,0,0) 90%, #b4b07f 90%),
+    linear-gradient( 85deg, rgba(0,0,0,0) 92%, #b4b07f 92%),
+    linear-gradient(175deg, rgba(0,0,0,0) 85%, #c5a68e 85%),
+    linear-gradient( 85deg, rgba(0,0,0,0) 89%, #c5a68e 89%),
+    linear-gradient(175deg, rgba(0,0,0,0) 80%, #ba9499 80%),
+    linear-gradient( 85deg, rgba(0,0,0,0) 86%, #ba9499 86%),
+    linear-gradient(175deg, rgba(0,0,0,0) 75%, #9f8fa4 75%),
+    linear-gradient( 85deg, rgba(0,0,0,0) 83%, #9f8fa4 83%),
+    linear-gradient(175deg, rgba(0,0,0,0) 70%, #74a6ae 70%),
+    linear-gradient( 85deg, rgba(0,0,0,0) 80%, #74a6ae 80%);
+}
+
+h1{
+    font: 45px "CommercialScript BT";
+    text-align: center;
+    color: fuchsia;
+}
+
+#welcome{
+    margin: 10px 0;
+}
+
+#desc{
+    width: 70%;
+    text-align: center;
+    margin: 5px 15% 15px 15%;
+    font-size: large;
+    font-family: Elephant;
+    font-weight: normal;
+}
+
+h3{
+    font-family: "Comic Sans MS";
+    font-weight: normal;
+    font-size: medium;
+    text-align: center;
+}
+
+div{
+    display: inline-block;
+    float: left;
+    clear: left;
+    margin: 5px;
+    text-align: left;
+}
+
+.form{
+    line-height: 30px;
+}
+
+#submitButton{
+    background-color: plum;
+    color: cornsilk;
+    text-align: center;
+    float: left;
+    width: auto;
+    border: 2px solid rebeccapurple;
+    border-radius: 8px;
+    padding: 10px 16px;
+    text-decoration: none;
+    margin: 8px 5% 4px 28%;
+    cursor: pointer;
+}
+
+#resetButton{
+    background-color: powderblue;
+    color: palevioletred;
+    text-align: center;
+    clear: right;
+    float: left;
+    width: auto;
+    border: 2px solid royalblue;
+    border-radius: 8px;
+    padding: 10px 16px;
+    text-decoration: none;
+    margin: 8px 28% 4px 5%;
+    cursor: pointer;
+}
+
+#submitButton:hover {
+    background-color: white;
+    color: deeppink;
+    border: 2px solid rebeccapurple;
+}
+
+#resetButton:hover {
+    background-color: white;
+    color: red;
+    border: 2px solid royalblue;
+}
+
+@media screen and (max-width: 600px){
+    div{
+        max-width: fit-content;
+        height: auto;
+    }
+
+    #submitButton{
+        margin: 8px 4% 4px 5%;
+    }
+
+    #resetButton{
+        margin: 8px 5% 4px 4%;
+    }
+
+    h1{
+        margin-bottom: 10px;
+    }
+}
+
+footer{
+  text-align: center;
+  background-color: #FBFBF8;
+  position: fixed;
+  font-size: small;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: black;
+}
+
+@media screen and (min-width: 980px){
+    #myForm{
+        min-width: 500px;
+        height: auto;
+        margin: 5px 30%;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    #myForm{
+        min-width: 700px;
+        height: auto;
+        margin: 5px 20%;
+    }
+
+    .form{
+        margin: 0 15% 0 15%;
+    }
+
+    #submitButton{
+        margin: 8px 4% 4px 35%;
+    }
+
+    #resetButton{
+        margin: 8px 35% 4px 4%;
+    }
+}
