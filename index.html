@@ -1,56 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <title>ITMD-362 Human and Computer Interactions</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/reset.css">
-  <script src="js/script.js"></script>
-</head>
-
-<body>
-  <h1 id="welcome">Welcome to Rida Software!</h1>
-  <h2 id="desc">Our company started in 1991 with the idea of distributing open source software to anyone who wants to use it. Our headquarters is located in Chicago, IL and there are several offices all over the US.</h2>
-  <h3>Please fill in the form below to receive emails from us.</h3>
-
-  <div id="myForm">
-    <form method='get' action=#null>
-      <div class="form">
-        <label for="fname">First Name: </label>
-        <input type="text" id="fname" name="first_name" placeholder="first name">
-      </div>
-
-      <div class="form">
-        <label for="lname">Last Name: </label>
-        <input type="text" id="lname" name="last_name" placeholder="last name">
-      </div>
-
-      <div class="form">
-        <label for="phone_number">Phone Number: </label>
-        <input type="tel" id="phone_number" name="phone_field" placeholder="phone number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
-        <small>Format: 012-345-6789</small>
-      </div>
-
-      <div class="form">
-        <label for="email">Email Address: </label>
-        <input type="email" id="email" name="email_field" placeholder="email address" required>
-        <small>Format: johndoe@example.com</small>
-      </div>
-
-      <div class="form">
-        <label for="bday">Date of Birth: </label>
-        <input type="date" id="bday" name="date_of_birth" required>
-      </div>
-
-      <div id="submitButton">Submit</div>
-      <div id="resetButton">Reset</div>
-    </form>
-  </div>
-  
-   <footer id="footer">
+  <head>
+    <meta charset="UTF-8">
+    <title>ITMD-362 Human and Computer Interactions</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+    <h1 id="welcome">Welcome to Rida Software!</h1>
+    <h2 id="desc">Our company started in 1991 with the idea of distributing open source software to anyone who wants to use it. Our headquarters is located in Chicago, IL and there are several offices all over the US.</h2>
+    <h3>Please fill in the form below to receive emails from us.</h3>
+    <div id="myForm">
+      <form method='get' action=#null>
+        <div class="form">
+          <label for="fname">First Name: </label>
+          <input type="text" id="fname" name="first_name" placeholder="first name">
+        </div>
+        <div class="form">
+          <label for="lname">Last Name: </label>
+          <input type="text" id="lname" name="last_name" placeholder="last name">
+        </div>
+        <div class="form">
+          <label for="phone_number">Phone Number: </label>
+          <input type="tel" id="phone_number" name="phone_field" placeholder="phone number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+          <small>Format: 012-345-6789</small>
+        </div>
+        <div class="form">
+          <label for="email">Email Address: </label>
+          <input type="email" id="email" name="email_field" placeholder="email address" required>
+          <small>Format: johndoe@example.com</small>
+        </div>
+        <div class="form">
+          <label for="bday">Date of Birth: </label>
+          <input type="date" id="bday" name="date_of_birth" required>
+        </div>
+        <div id="submitButton">Submit</div>
+        <div id="resetButton">Reset</div>
+      </form>
+    </div>
+    <footer id="footer">
       <p>Site © Rida Tariq. All rights reserved. (This website is not legitamite and for school use only)</p>
     </footer>
-	
-</body>
+  </body>
 </html>
