@@ -25,6 +25,7 @@ function init() {
 
   var resetbutton = document.getElementById('resetButton');
 
+  // to resets the values of all elements in a form
   function reset() {
     alert("Are you sure you want to reset all the information?");
     document.getElementById("myForm").reset();
