@@ -1,5 +1,6 @@
-// form validation code
+/* form validation code */
 
+//to initialise the whole webpage
 function init() {
   var button = document.getElementById('submitButton');
 
